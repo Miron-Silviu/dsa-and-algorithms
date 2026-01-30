@@ -19,9 +19,3 @@
 //   return arr;
 // }
 // console.log(createOddNumbersArray(20));
-
-function createOddNumbersArray(n) {
-  return Array.from({ length: n }, (_, i) => 2 * i + 1);
-}
-
-console.log(createOddNumbersArray(5));
